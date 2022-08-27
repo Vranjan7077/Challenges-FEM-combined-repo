@@ -1,0 +1,14 @@
+@use "../abstracts/" as *;
+
+.cards-container {
+  @include d-flex;
+  border-radius: 5px;
+  height: 500px;
+  width: 900px;
+  margin: 10% auto;
+  @media only screen and (max-width: 768.98px) {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+}

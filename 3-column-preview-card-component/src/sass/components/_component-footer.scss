@@ -1,0 +1,10 @@
+.page-attribution {
+  font-size: 11px;
+  text-align: center;
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+  @media only screen and (max-width: 768.98px) {
+    display: none;
+  }
+}
